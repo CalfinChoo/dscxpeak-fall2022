@@ -19,8 +19,8 @@ function Navbar() {
 
   return (
     <nav className='nav bg-white flex-wrap'>
-      <div className='w-screen h-[100px] z-10 fixed'>
-        <div className='px-10 flex justify-between relative flex items-center w-full h-full'>
+      <div className='w-screen h-[100px] z-10'>
+        <div className='px-10 flex justify-between relative items-center w-full h-full'>
           <div className='relative flex items-center ml-32 text-[#424B5A]'>
             <a href='/'>
                 <img
@@ -46,10 +46,7 @@ function Navbar() {
         </div>
       </div>
       <br/>
-      <br/>
-      <br/>
-      <br/>
-      <div className='w-screen h-[59px] z-10 fixed drop-shadow bg-[#F4FEFF]'>
+      <div className='w-screen h-[59px] z-10 drop-shadow bg-[#F4FEFF]'>
         <div className='px-10 flex justify-between items-center w-full h-full'>
           <div className='flex items-center pl-36 text-[#1D5257] text-[24px] hover:text-[700] focus:text-[700]'>
             <a class='mr-5 hover:underline' href='/home'>
