@@ -10,24 +10,24 @@ export default function Home() {
       Payment History
     <br/>
     <div className = 'grid grid-rows-3 grid-flow-col'>
-      <Box/>
-      <Box/>
-      <Box/>
+      <Box categoryName="bebe"/>
+      <Box categoryName="bebe"/>
+      <Box categoryName="bebe"/>
     </div>
     <div className = 'grid grid-rows-3 grid-flow-col'>
-      <Box/>
-      <Box/>
-      <Box/>
+    <Box categoryName="bebe"/>
+    <Box categoryName="bebe"/>
+    <Box categoryName="bebe"/>
     </div>
     <div className = 'grid grid-rows-3 grid-flow-col'>
-      <Box/>
-      <Box/>
-      <Box/>
+    <Box categoryName="bebe"/>
+    <Box categoryName="bebe"/>
+    <Box categoryName="bebe"/>
     </div>
     <div className = 'grid grid-rows-3 grid-flow-col'>
-      <Box/>
-      <Box/>
-      <Box/>
+    <Box categoryName="bebe"/>
+    <Box categoryName="bebe"/>
+    <Box categoryName="bebe"/>
     </div>
     </div>
   )
