@@ -1,0 +1,51 @@
+[
+    {
+        "customer_id" : "abc123",
+        "top_categories" : "garden_tools, electronics, health_beauty",
+        "products_ordered" : [
+            {
+                "name" : "rake",
+                "product_id" : "qwerty1",
+                "category": "garden_tools",
+                "avg_review": "4.0"
+            },
+            {
+                "name" : "mouse",
+                "product_id" : "ksgb12",
+                "category": "electronics",
+                "avg_review": "4.0"
+            },
+            {
+                "name" : "lotion",
+                "product_id" : "akejf11",
+                "category": "health_beauty",
+                "avg_review": "5.0"
+            }
+        ]
+    },
+    
+    {
+        "customer_id" : "xyz321",
+        "top_categories" : "electronics, housewares, health_beauty",
+        "products_ordered" : [
+            {
+                "name" : "charger",
+                "product_id" : "qwerty1",
+                "category": "electronics",
+                "avg_review": "4.0"
+            },
+            {
+                "name" : "couch",
+                "product_id" : "njfk21",
+                "category": "housewares",
+                "avg_review": "4.0"
+            },
+            {
+                "name" : "lotion",
+                "product_id" : "akejf11",
+                "category": "health_beauty",
+                "avg_review": "5.0"
+            }
+        ]
+    }
+]
