@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Box from './Box'
+import Products from './Products'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
     <br/>
       Recommendations
     <br/>
-  
+    <Products/>
     
     </div>
   )
