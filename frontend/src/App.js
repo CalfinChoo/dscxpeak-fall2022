@@ -7,6 +7,9 @@ import Navbar from './components/Navbar';
 import Home from './components/Home'
 import History from './components/History'
 import Recommendations from './components/Recommendations'
+import Clothing from './components/Clothing'
+import Electronics from './components/Electronics'
+import Housewares from './components/Housewares'
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
       { path: '/home', element: <Home /> },
       { path: '/payment-history', element: <History /> },
       { path: '/recs', element: <Recommendations /> },
+      { path: '/clothing', element: <Clothing /> },
+      { path: '/electronics', element: <Electronics /> },
+      { path: '/Housewares', element: <Housewares /> },
      
     ])
     return routes;
